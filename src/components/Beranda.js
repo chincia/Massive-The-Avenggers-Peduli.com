@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import Header from "./Header"
 
+
 const Beranda = () => {
 
   return (
@@ -9,12 +10,12 @@ const Beranda = () => {
       <Container className="py-5">
         <Row className="py-lg-5">
           <Col>
-            <h2>Beranda</h2>
+            <p>Di sini Whats On</p>
           </Col>
         </Row>
       </Container>
     </>
-  )
+  );
 }
 
 export default Beranda

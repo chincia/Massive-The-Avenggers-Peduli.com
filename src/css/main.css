@@ -1,0 +1,413 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/*----------------------------------ARTIKEL------------------------------*/
+* {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(226, 232, 240, 1);
+    margin-top: 20px;
+}
+
+.flex-artikel {
+    padding-bottom: 20px;
+    
+}
+
+.flex-top-artikel {
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.flex2-artikel {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.flex2-artikel img{
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    position:absolute;
+    margin-left:0px;
+    margin-right: auto;
+    width: auto;
+}
+.flex2-artikel h5{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+
+.flex2-artikel p{
+    text-align: justify;
+    position: static;
+    padding-left: 400px;
+}
+
+
+.flex3-artikel {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.flex3-artikel img{
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    position:absolute;
+    margin-left:0px;
+    margin-right: auto;
+    width: auto;
+}
+
+.flex3-artikel h5{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+
+.flex3-artikel p{
+    text-align: justify;
+    position: static;
+    padding-left: 400px;
+}
+
+.flex4-artikel  {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.flex4-artikel img{
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    position:absolute;
+    margin-left:0px;
+    margin-right: auto;
+    width: auto;
+}
+
+.flex4-artikel h5{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+
+.flex4-artikel p{
+    text-align: justify;
+    position: static;
+    padding-left: 400px;
+}
+
+/*----------------------------------KAMPANYE------------------------------*/
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.Kampanyepage {
+  background-color: rgba(226, 232, 240, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fluid1-kampanye {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 70px;
+  width: 1344px;
+  height: 290px;
+  padding-top: 30px;
+}
+
+.fluid1-kampanye img{
+  position:static;
+  size: auto;
+  height: 94px;
+  width: 105px;
+
+}
+
+.fluid2-kampanye{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 80px;
+  width: 1344px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.fluid3-kampanye{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 70px;
+  width: 1344px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.fluid4-kampanye{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 70px;
+  width: 1344px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+.fluid5-kampanye{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 1344px;
+  height: 250px;
+  padding-top: 30px;
+}
+
+/*----------------------------------PROGRAM------------------------------*/
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-program{
+    background-color:rgba(0, 173, 181, 1);
+}
+
+.gallery{
+    background-color: rgba(170, 216, 211, 1);
+}
+
+.flex-program{
+    background-color:rgba(0, 173, 181, 1);
+    background-size:auto;
+    padding-top: 70px;
+    padding-left: 50px ;
+    height: 60vh;
+    font-size: 18px;
+}
+
+.flex-program h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.flex-program img{
+    height: 270px;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    left: 69.22%;
+    right: 9.3%;
+    top: 16.60%;
+    bottom: 8.21%;
+}
+
+.flex-program p{
+    padding-right: 500px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.gallery h1{
+    position: absolute;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 100px ;
+    margin-left: 370px;
+}
+
+.gallery p{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 110px ;
+    margin-left: 370px;
+    margin-right: 100px;
+}
+
+.gallery img{
+    position: absolute;
+    border-radius: 20px;
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 80px ;
+}
+
+.gallery button{
+    border-radius: 20px;
+    background-color: rgb(57, 62, 70, 1);
+    position: absolute;
+    margin-top: 290px ;
+    margin-left: 365px;
+}
+
+.foodtruck img{
+    position: absolute;
+    height: 240px;
+    width: 310px;
+    margin-left: 0px;
+    margin-top: 400px ;
+    border-radius: 20px;
+}
+
+.foodtruck h1{
+    position: absolute;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 422px ;
+    margin-left: 370px;
+}
+
+.foodtruck p{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 439px ;
+    margin-left: 370px;
+    margin-right: 100px;
+}
+
+.foodtruck button {
+    position: absolute;
+    margin-top: 610px ;
+    margin-left: 365px;
+}
+
+.kakakasuh img{
+    position: absolute ;
+    height: 240px;
+    width: 310px;
+    margin-right: 100px;
+    margin-left: 0px;
+    margin-top: 130px ;
+    border-radius: 20px;
+}
+
+.kakakasuh h1{
+    margin-top: 150px;
+}
+
+.kakakasuh p{
+    margin-top: 170px;
+    margin-right: 50px;
+}
+
+.kakakasuh button{
+    position: relative;
+    margin-top: 340px ;
+    margin-left: 365px;
+}
+
+/*----------------------------------NAVBAR------------------------------*/
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: rgba(0, 173, 181, 1);
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  
+  .logo {
+      margin-left: 70px;
+    }
+    .navigation-menu {
+      margin-left: auto;
+      padding-right: 50px;
+      color: white;
+    }
+  
+    .navigation-menu ul {
+      display: flex;
+      padding: 0;
+    }
+    .navigation-menu li {
+      list-style-type: none;
+      margin: 0 1rem;
+    }
+    .navigation-menu li a {
+      text-decoration: none;
+      display: block;
+      width: 110%;
+    }
+  
+    .hamburger {
+      border: 0;
+      height: 40px;
+      width: 40px;
+      padding: 0.5rem;
+      border-radius: 50%;
+      background-color: #283b8b;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+      position: absolute;
+      top: 50%;
+      right: 25px;
+      transform: translateY(-50%);
+      display: none;
+    }
+    .hamburger:hover {
+      background-color: white;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .hamburger {
+        display: block;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .navigation-menu ul {
+        display: none;
+        color: white;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .navigation-menu ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 77px);
+      }
+      .navigation-menu li {
+        text-align: center;
+        margin: 0;
+      }
+      .navigation-menu li a {
+        width: 100%;
+        padding: 1.5rem 0;
+      }
+      .navigation-menu li:hover {
+        background-color: black;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .navigation-menu ul {
+        /* previous styles */
+        dipslay: none;
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .navigation-menu.expanded ul {
+        display: block;
+      }
+    }

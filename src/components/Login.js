@@ -1,6 +1,6 @@
 // import { Button } from "react-bootstrap"
 // import { Link } from "react-router-dom"
-import Header from "./Header"
+// import Header from "./Header"
 import React from "react"
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import "mdbreact/dist/css/mdb.css"
@@ -11,6 +11,7 @@ const Login = () => {
 
 <Header />
   return (
+  
     <MDBContainer fluid>
 
       <MDBRow className='d-flex justify-content-center align-items-center h-100'>
@@ -23,7 +24,7 @@ const Login = () => {
                 <MDBIcon far icon='user-circle' size="8x"/>
               </MDBBtn>
 
-              <h6 className="text-center mt-1 mb-4 pb-1"><b>SIGN IN</b></h6>
+              <h6 className="text-center mt-1 mb-4 pb-1" ><b>SIGN IN</b></h6>
 
               <MDBInput wrapperClass='mb-4 mx-5 w-100' labelClass='text-white' id='formControlLg' type='email' size="md" placeholder="Username"/>
               <MDBInput wrapperClass='mb-4 mx-5 w-100' labelClass='text-white' id='formControlLg' type='password' size="md" placeholder="Password"/>

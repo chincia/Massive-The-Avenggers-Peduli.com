@@ -1,5 +1,6 @@
 import { Nav, Navbar } from "react-bootstrap"
 import { Link } from "react-router-dom"
+// import "./src/image"
 
 const Header = () => {
 
@@ -7,14 +8,20 @@ const Header = () => {
     if (window.location.pathname === path) return "active nav-link"
     return "nav-link"
   }
+  // const imgStyle = {
+  //   float: 'left'
+  // }
 
   return (
-    <Navbar bg={{ color:"#00ADB5" }} className="px-3">
-      <Navbar.Brand>Logo</Navbar.Brand>
-      <Nav className="me-auto">
-        <Link to={'/'} className={className('/')}>Beranda</Link>
-        <Link to={'/login'} className={className('/login')}>Login</Link>
-        <Link to={'/register'} className={className('/register')}>Register</Link>
+    <Navbar bgcolor="#00ADB5" className="px-3">
+      {/* <img style={imgStyle} src="2.png" alt="/image" /> */}
+      <Nav className="text-right">
+        <Link to={'/'} className={className('/')}>Whats On</Link>
+        <Link to={'/program'} className={className('/program')}>Program</Link>
+        <Link to={'/kampanye'} className={className('/kampanye')}>Kampanye</Link>
+        <Link to={'/akun'} className={className('/akun')}>Akun</Link>
+        <Link to={'/lainnya'} className={className('/lainnya')}>Lainnya</Link>
+        <Link to={'/login'} className={className('/login')}>Sign In</Link>
       </Nav>
     </Navbar>
   )
